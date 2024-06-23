@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  height: 100vh;
+  width: 100%;
+}
+#bottom {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  pointer-events: all;
+}
+#top {
+  pointer-events: none;
+  height: 100%;
+  width: 80%;
+  margin: 0% 10%;
+  position: absolute;
+}
+#bottom img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav img {
+  height: 50px;
+}
+#nav a {
+  pointer-events: all;
+  color: white;
+  text-decoration: none;
+}
+#nav1 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 17px;
+  color: white;
+}
+#nav2 {
+  display: flex;
+  gap: 17px;
+  font-size: 17px;
+}
+#hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#hleft {
+  width: 55%;
+  font-family: kajiro;
+  font-size: 50px;
+  color: white;
+  margin-top: 5vw;
+}
+#hleft .elem {
+  line-height: 0.9;
+  height: 6vw;
+  position: relative;
+  overflow: hidden;
+}
+#hleft .elem h1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+#hleft .elem h1:nth-child(1) {
+  top: 0;
+}
+#hright {
+  color: #fff;
+  width: 30%;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+#hero #hleft button {
+  pointer-events: all;
+  font-family: kajiro;
+  font-size: 30px;
+  padding: 0.1vw 2vw;
+  margin-top: 2vw;
+}
+#div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#hright p {
+  text-align: end;
+}
+#hright {
+  margin-top: 5vw;
+}
+#hright #div {
+  height: 150px;
+  width: 200px;
+  background-color: aqua;
+  margin-bottom: 30px;
+}
+
+#hright p {
+  margin: 1vw 0;
+}
